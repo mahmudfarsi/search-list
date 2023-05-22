@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
+
+:root{
+  --clr-1:#3E4659;
+  --clr-2:#6B7896;
+  --clr-3:#4F73C9;
+  --clr-4:#56627D;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  direction: ltr;
+  background: var(--clr-1);
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/* container */
+
+
+.container{
+  width: 40%;
+  max-width: 800px;
+  height: 380px;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  padding: 20px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 1px 1px 10px black;
+  box-shadow: inset 1px 1px 10px black;
+  background: var(--clr-3);
+}
+
+
+input{
+  height: 25px;
+  padding: 19px 15px;
+  font-size: 12pt;
+  color: black;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+
+
+.box-lists{
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+#myList{
+  text-align: center;
+  padding: 10px;
+}
+
+li{
+  font-size: 16pt;
+  color: rgb(0, 0, 0);
+  margin-top: 20px;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+
